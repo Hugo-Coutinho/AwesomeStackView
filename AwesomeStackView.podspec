@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AwesomeStackView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1"
   spec.summary      = " is a Swift framework that simplifies the process of building forms and other static content using UIStackView."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/AwesomeStackView.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Hugo-Coutinho/AwesomeStackView.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
