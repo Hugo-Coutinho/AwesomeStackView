@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AwesomeStackView"
-  spec.version      = "0.1"
+  spec.version      = "0.2"
   spec.summary      = " is a Swift framework that simplifies the process of building forms and other static content using UIStackView."
 
   # This description is used to generate tags and improve search results.
@@ -71,7 +71,7 @@ Pod::Spec.new do |spec|
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-
+  spec.ios.deployment_target = '7.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
