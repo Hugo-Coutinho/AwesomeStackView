@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   # spec.description  = <<-DESC
   #                  DESC
 
-  s.homepage     = "https://github.com/Hugo-Coutinho/AwesomeStackView.git"
+  spec.homepage     = "https://github.com/Hugo-Coutinho/AwesomeStackView.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license = { :type => "MIT", :file => "LICENSE" }
+  spec.license = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
