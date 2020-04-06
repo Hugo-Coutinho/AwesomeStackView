@@ -11,7 +11,7 @@ import UIKit
 
 
 // MARK: - DATASOURCE -
-@objc protocol StackViewDataSource : NSObjectProtocol {
+@objc protocol AwesomeStackViewDataSource : NSObjectProtocol {
     
     func stackView(_ stackView: UIStackView, numberOfRowsInSection section: Int) -> Int
     func stackView(_ stackView: UIStackView, customSpacingForRow index: Int) -> Int
@@ -21,7 +21,7 @@ import UIKit
 }
 
 // MARK: - DELEGATE -
-@objc protocol StackViewDelegate: NSObjectProtocol {
+@objc protocol AwesomeStackViewDelegate: NSObjectProtocol {
     
     @objc optional func stackView(_ stackView: UIStackView, didSelectRowAt index: Int, view: UIView)
 }
@@ -29,8 +29,8 @@ import UIKit
 // MARK: - MAIN CLASS -
 public class AwesomeStackView: UIStackView {
     
-    @IBOutlet weak var dataSource: StackViewDataSource?
-    @IBOutlet weak var delegate: StackViewDelegate?
+    @IBOutlet weak var dataSource: AwesomeStackViewDataSource?
+    @IBOutlet weak var delegate: AwesomeStackViewDelegate?
     
     public func initialize() {
         self.setupStackView()
