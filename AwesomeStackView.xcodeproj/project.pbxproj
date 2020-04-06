@@ -48,11 +48,19 @@
 		6392A86C243795E1007A5E9A /* AwesomeStackView */ = {
 			isa = PBXGroup;
 			children = (
+				6394235D243B64E30025155C /* System_files */,
 				6392A875243796D5007A5E9A /* AwesomeStackView.swift */,
-				6392A86D243795E1007A5E9A /* AwesomeStackView.h */,
 				6392A86E243795E1007A5E9A /* Info.plist */,
 			);
 			path = AwesomeStackView;
+			sourceTree = "<group>";
+		};
+		6394235D243B64E30025155C /* System_files */ = {
+			isa = PBXGroup;
+			children = (
+				6392A86D243795E1007A5E9A /* AwesomeStackView.h */,
+			);
+			path = System_files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +282,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AwesomeStackView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,7 +309,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AwesomeStackView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
