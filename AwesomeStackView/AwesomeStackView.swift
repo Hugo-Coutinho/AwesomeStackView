@@ -2,8 +2,8 @@
 //  StackViewController.swift
 //  PersonalFinancialHealth
 //
-//  Created by BRQ on 06/08/19.
-//  Copyright © 2019 BRQ. All rights reserved.
+//  Created by Hugo on 06/08/19.
+//  Copyright © 2019 Hugo. All rights reserved.
 //
 
 import Foundation
@@ -29,8 +29,8 @@ import UIKit
 // MARK: - MAIN CLASS -
 public class AwesomeStackView: UIStackView {
     
-    @IBOutlet weak var dataSource: AwesomeStackViewDataSource?
-    @IBOutlet weak var delegate: AwesomeStackViewDelegate?
+    @IBOutlet public weak var dataSource: AwesomeStackViewDataSource?
+    @IBOutlet public weak var delegate: AwesomeStackViewDelegate?
     
     public func initialize() {
         self.setupStackView()

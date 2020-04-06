@@ -2,7 +2,7 @@
 //  AwesomeStackView.h
 //  AwesomeStackView
 //
-//  Created by BRQ on 03/04/20.
+//  Created by Hugo on 03/04/20.
 //  Copyright © 2020 Hugo Coutinho. All rights reserved.
 //
 
